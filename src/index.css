@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.antic-didone-regular {
+  font-family: "Antic Didone", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3 {
+  font-family: "Dosis", sans-serif;
+}
+.joke-font {
+  font-family: "Antic Didone", serif;
+  /* font-size: 2rem; */
+  color: aliceblue;
+}
+.font-btn {
+  font-family: "Dosis", sans-serif;
+}
+.font {
+  font-weight: bolder;
+  /* font-size: 3rem; */
+  color: aliceblue;
+}
+.error {
+  font-family: "Antic Didone", serif;
+  /* font-size: 2rem; */
+  color: aliceblue;
+}
+.box {
+  width: 80%;
+  min-height: 30%;
+  height: auto;
+  text-align: center;
+  background-color: rgba(155, 197, 224, 0.5);
+}
+
+@media (max-width: 640px) {
+  .morph-box {
+    .joke-font {
+      font-family: "Antic Didone", serif;
+      /* font-size: 1rem; */
+      color: aliceblue;
+    }
+    .font-btn {
+      font-family: "Dosis", sans-serif;
+    }
+    .font {
+      font-weight: bolder;
+      /* font-size: 1.5rem; */
+      color: aliceblue;
+    }
+    .error {
+      font-family: "Antic Didone", serif;
+      /* font-size: 1rem; */
+      color: aliceblue;
+    }
+    .box {
+      width: 80%;
+      min-height: 30%;
+      height: auto;
+      text-align: center;
+      background-color: rgba(155, 197, 224, 0.5);
+    }
+  }
+}
+/* Hover effect for demonstration purposes */
+
+/* .dosis-<uniquifier> {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
