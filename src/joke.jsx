@@ -20,7 +20,7 @@ function Joke({ data }) {
   //         "lang": "en"
   //     }
   // }
-  return <h1 className="mt-10 joke-font">{data.joke}</h1>;
+  return <h1 className="mt-10 text-1xl lg:text-3xl joke-font">{data.joke}</h1>;
 }
 
 export default Joke;
